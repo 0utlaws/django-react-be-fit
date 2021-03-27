@@ -1,0 +1,59 @@
+.diary-list-hdg span:nth-child(1) {
+    width: 80%;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.diary-list-hdg span:nth-child(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.diary-item {
+    display: flex;
+    height: 50px;
+    background-color: #f6f6f6;
+    line-height: 50px;
+    color: #333;
+    border-bottom: 2px solid white;
+}
+
+.diary-item:hover {
+    background-color: #bbb;
+}  
+
+.diary-item span {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.diary-item .actions  {
+    display: flex;
+    width: 20%;
+}
+
+.diary-item button {
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.diary-item button:nth-child(1) a {
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color: #333;
+}
+
+.diary-item button:nth-child(1):hover {
+    background-color: rgb(34, 185, 255);
+}
+
+.diary-item button:nth-child(2):hover {
+    background-color: rgb(241, 30, 30);
+} 

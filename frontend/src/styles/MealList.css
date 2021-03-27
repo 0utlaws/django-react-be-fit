@@ -1,0 +1,80 @@
+.meal-list-hdg span {
+    width: 15%;
+}
+
+.meal-list-hdg .meal-actions-heading {
+    width: 25%;
+}
+
+.meal-heading {
+    margin: 10px 50px 10px 50px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.meal-item {
+    display: flex;
+    height: 50px;
+    text-align: center;
+    background-color: #f6f6f6;
+    line-height: 50px;
+    color: #333;
+}
+
+.meal-item:hover {
+    background-color: #bbb;
+}
+
+.meal-item span {
+    width: 15%;
+}
+
+.meal-item .actions {
+    display: flex;
+    width: 25%;
+}
+
+.meal-item button {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.meal-item button:nth-child(1):hover {
+    background-color: rgb(34, 185, 255);
+}
+
+.meal-item button:nth-child(2):hover {
+    background-color: rgb(241, 30, 30);;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.summary-heading,
+.summary-item {
+    display: flex;
+}
+
+.summary-heading {
+    height: 80px;
+    line-height: 80px;
+    background-color: #f6f6f6;
+}
+
+.summary-item {
+    margin: 20px 0;
+}
+
+.summary span {
+    width: 20%;
+    text-align: center;
+}

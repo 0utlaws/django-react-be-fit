@@ -1,0 +1,24 @@
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: color .4s;
+}
+
+nav li a:hover {
+    color: rgb(34, 185, 255);
+}
+
+nav li a.active {
+    background-color: rgb(34, 185, 255);
+    color: #333;
+    border-radius: 50px;
+}
+
+

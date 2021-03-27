@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  line-height: 80px;
+  background-color: #0E101C;
+}
+
+main {
+  width: 90%;
+  margin: 100px auto;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .main-content {
+  width: 70%;
+}
+
+main .form-container {
+  width: 20%;
+}
+
+main .list-heading {
+  display: flex;
+  height: 80px;
+  line-height: 80px;
+  background-color: #f6f6f6;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+
+main .empty-list {
+  padding: 10px 0;
+  font-size: 1.2rem;
+  background-color: rgb(34, 185, 255);;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: rgb(34, 185, 255);
+  background-color: #0E101C;
+  font-size: 1rem;
+  text-align: center;
+}
