@@ -34,7 +34,7 @@
   
 
 ## Diarys:
-![alt text](https://user-images.githubusercontent.com/47000198/113688102-467b2300-96c9-11eb-9b78-588c375f94a0.jpg)
+![alt text](https://user-images.githubusercontent.com/47000198/113688892-05374300-96ca-11eb-95ad-feca47b8cc14.jpg)
 
 
 
